@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <elements>
+	<element name="Abhorrence" type="Spell" source="Deep Magic for 5th Edition" id="ID_KBP_DMF5E_SPELL_ABHORRENCE">
+		<supports>Bard,Cleric,Druid,Sorcerer,Wizard</supports>
+		<description>
+			<p>You temporarily make a creature within range less appealing to others. The target makes a Wisdom saving throw against your spell. On a successful save, the spell is ineffective. On a failed save, the next time the creature makes a Charisma check before the spell ends, roll a d6 and substract the result from the roll. The spell then ends.</p>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">0</set>
+			<set name="school">Enhancement</set>
+			<set name="time">1 bonus action</set>
+			<set name="range">30 feet</set>
+			<set name="duration">1 minute</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="isConcentration">false</set>
+		</setters>
+	</element>
 	<element name="Weiler's Ward" type="Spell" source="Deep Magic for 5th Edition" id="ID_KBP_DMF5E_SPELL_WEILERS_WARD">
 		<supports>Druid,Sorcerer,Wizard</supports>
 		<description>
