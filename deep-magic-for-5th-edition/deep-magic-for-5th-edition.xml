@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<element name="Deep Magic for 5th Edition" type="Source" source="Core" id="ID_KBP_DMF5E_SOURCE_DEEP_MAGIC_FOR_5TH_EDITION">
+		<description>
+			<html>&lt;p&gt;&lt;strong&gt;Command 700 New Spells for 5th Edition!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;No matter how you slice it, magic is at the heart of fantasy—and nothing says magic like a massive tome of spells. This tome collects, updates, tweaks, and expands spells from years of the Deep Magic for Fifth Edition series—more than 700 new and revised spells. And it adds a lot more:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;19 divine domains from Beer to Mountain and Speed to Winter;&lt;/li&gt;
+&lt;li&gt;13 new wizard specialties, such as the elementalist and the timekeeper;&lt;/li&gt;
+&lt;li&gt;6 new sorcerous origins, including the Aristocrat and the Farseer;&lt;/li&gt;
+&lt;li&gt;3 otherworldly patrons for warlocks, including the Sibyl;&lt;/li&gt;
+&lt;li&gt;expanded treatments of familiars and other wizardly servants;&lt;/li&gt;
+&lt;li&gt;and much more!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This 356-page tome is not just for wizards, warlocks, and sorcerers. Deep Magic also expands the horizons of what’s possible for bards, clerics, druids, and even rangers and paladins. It offers something new for every spellcasting class! With these new spells and options, your characters (or your villains) can become masters of winter magic, chaos magic, or shadow magic. Seek out hidden colleges and academies of lost lore. Learn new runes, hieroglyphs, and cantrips to break down the walls of reality, or just bend them a bit.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Deep Magic contains nothing but magic from start to finish!&lt;/strong&gt;&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="abbreviation">DMF5E</set>
+			<set name="url">https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition/</set>
+			<set name="image">https://koboldpress.com/kpstore/wp-content/uploads/Deep-Magic-5E-Cover.jpg</set>
+			<set name="author" abbreviation="KBP" url="https://koboldpress.com/">Kobold Press</set>
+			<set name="third-party">true</set>
+			<set name="release">20201006</set>
+		</setters>
+	</element>
+	<element name="Abhorrence" type="Spell" source="Deep Magic for 5th Edition" id="ID_KBP_DMF5E_SPELL_ABHORRENCE">
+		<supports>Bard,Cleric,Druid,Sorcerer,Wizard</supports>
+		<description>
+			<html>&lt;p&gt;You temporarily make a creature within range less appealing to others. The target makes a Wisdom saving throw against your spell. On a successful save, the spell is ineffective. On a failed save, the next time the creature makes a Charisma check before the spell ends, roll a d6 and substract the result from the roll. The spell then ends.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">0</set>
+			<set name="school">Enhancement</set>
+			<set name="time">1 bonus action</set>
+			<set name="range">30 feet</set>
+			<set name="duration">1 minute</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="isConcentration">false</set>
+		</setters>
+	</element>
+	<element name="Abhorrent Apparition" type="Spell" source="Deep Magic for 5th Edition" id="ID_KBP_DMF5E_SPELL_ABHORRENT_APPARITION">
+		<supports>Bard,Sorcerer,Wizard</supports>
+		<description>
+			<html>&lt;p&gt;You imbue a terrifying visage onto a gourd and toss it ahead of you to a spot of your choosing within range. Each creature within 15 feet of that spot takes 6d8 psychic damage and becomes frightened of you for 1 minute; a successful Wisdom saving throw halves the damage and negates the fright. A creature frightened in this way repeats the saving throw at the end of each of its turns, ending the effect on itself on a success.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;At Higher Levels.&lt;/em&gt;&lt;/strong&gt; If you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d8 for each slot level above 4th.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">4</set>
+			<set name="school">Illusion</set>
+			<set name="time">1 action</set>
+			<set name="range">60 feet</set>
+			<set name="duration">Instantaneous</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="isConcentration">false</set>
+			<set name="materialComponent">a gourd with a face carved on it</set>
+		</setters>
+	</element>
+	<element name="Agonizing Mark" type="Spell" source="Deep Magic for 5th Edition" id="ID_KBP_DMF5E_SPELL_AGONIZING_MARK">
+		<supports>Bard,Cleric,Druid,Ranger,Sorceror,Wizard</supports>
+		<description>
+			<html>&lt;p&gt;You choose a creature you can see within range to mark as your prey, and a ray of black energy issues forth from you. Until the spell ends, each time you deal damage to the target it must make a Charisma saving throw. On a failed save, it falls prone as its body is filled with torturous agony.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">1</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="range">90 feet</set>
+			<set name="duration">Concetration, up to 1 minute</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="isConcentration">true</set>
+		</setters>
+	</element>
+	<element name="Ale-dritch Blast" type="Spell" source="Deep Magic for 5th Edition" id="ID_KBP_DMF5E_SPELL_ALE_DRITCH_BLAST">
+		<supports>Bard,Druid,Wizard</supports>
+		<description>
+			<html>&lt;p&gt;A stream of ice-cold ale blasts from your outstretched hands toward a creature or object within range. Make a ranged spell attack against the target. On a hit, it takes 1d8 cold damage and it must make a successful Constitution saving throw or be poisoned until the end of its next turn. A targeted creature has disadvantage on the saving throw if it has drunk any alcohol within the last hour.&lt;/p&gt;
+&lt;p&gt;The damage increases when you reach higher levels: 2d8 at 5th level, 3d8 at 11th level, and 4d8 at 17th level.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">0</set>
+			<set name="school">Conjuration</set>
+			<set name="time">1 action</set>
+			<set name="range">60 feet</set>
+			<set name="duration">Instantaneous</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="isConcentration">false</set>
+		</setters>
+	</element>
+	<element name="Ally Aegis" type="Spell" source="Deep Magic for 5th Edition" id="ID_KBP_DMF5E_SPELL_ALLY_AEGIS">
+		<supports>Bard,Cleric,Sorcerer,Wizard</supports>
+		<description>
+			<html>&lt;p&gt;When you see an ally within range in imminent danger, you can use your reaction to protect that creature with a shield of magical force. Until the start of your next turn, your ally has a +5 bonus to AC and is immune to force damage. In addition, if your ally must make a saving throw against an enemy’s spell that deals damage, the ally takes half as much damage on a failed saving throw and no damage on a successful save. Ally aegis offers no protection, however, against psychic damage from any source.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;At Higher Levels.&lt;/em&gt;&lt;/strong&gt; When you cast this spell using a spell slot of 7th level or higher, you can target one additional ally for each slot level above 6th.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">6</set>
+			<set name="school">Abjuration</set>
+			<set name="time">1 reaction, which you take when your ally is hit by an attack or is targeted by a spell that deals damage other than psychic damage</set>
+			<set name="range">60 feet</set>
+			<set name="duration">1 round</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="isConcentration">false</set>
+		</setters>
+	</element>
+	<element name="Alone" type="Spell" source="Deep Magic for 5th Edition" id="ID_KBP_DMF5E_SPELL_ALONE">
+		<supports>Cleric,Sorcerer,Warlock,Wizard</supports>
+		<description>
+			<html>&lt;p&gt;You cause a creature within range to believe its allies have been banished to a different realm. The target must succeed on a Wisdom saving throw, or it treats its allies as if they were invisible and silenced. The affected creature cannot target, perceive, or otherwise interact with its allies for the duration of the spell. If one of its allies hits it with a melee attack, the affected creature can make another Wisdom saving throw. On a successful save, the spell ends.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">3</set>
+			<set name="school">Enchantment</set>
+			<set name="time">1 action</set>
+			<set name="range">30 feet</set>
+			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="isConcentration">true</set>
+		</setters>
+	</element>
+	<element name="Althea's Travel Tent" type="Spell" source="Deep Magic for 5th Edition" id="ID_KBP_DMF5E_SPELL_ALTHEAS_TRAVEL_TENT">
+		<supports>Sorcerer,Wizard</supports>
+		<description>
+			<html>&lt;p&gt;You touch an ordinary, properly pitched canvas tent to create a space where you and a companion can sleep in comfort. From the outside, the tent appears normal, but inside it has a small foyer and a larger bedchamber. The foyer contains a writing desk with a chair; the bedchamber holds a soft bed large enough to sleep two, a small nightstand with a candle, and a small clothes rack. The floor of both rooms is a clean, dry, hard-packed version of the local ground. When the spell ends, the tent and the ground return to normal, and any creatures inside the tent are expelled to the nearest unoccupied spaces.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;At Higher Levels.&lt;/em&gt;&lt;/strong&gt; When the spell is cast using a 3rd-level slot, the foyer becomes a dining area with seats for six and enough floor space for six people to sleep, if they bring their own bedding. The sleeping room is unchanged. With a 4th-level slot, the temperature inside the tent is comfortable regardless of the outside temperature, and the dining area includes a small kitchen. With a 5th-level slot, an unseen servant is conjured to prepare and serve food (from your supplies). With a 6th-level slot, a third room is added that has three two-person beds. With a slot of 7th level or higher, the dining area and second sleeping area can each accommodate eight persons.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">2</set>
+			<set name="school">Conjuratiom</set>
+			<set name="time">5 minutes</set>
+			<set name="range">Touch</set>
+			<set name="duration">8 hours</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a canvas tent</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">true</set>
+		</setters>
+	</element>
+	<element name="Amplify Gravity" type="Spell" source="Deep Magic for 5th Edition" id="ID_KBP_DMF5E_SPELL_AMPLIFY_GRAVITY">
+		<supports>Sorcerer,Warlock,Wizard</supports>
+		<description>
+			<html>&lt;p&gt;This spell intensifies gravity in a 50-foot-radius area within range. Inside the area, damage from falling is quadrupled (2d6 per 5 feet fallen) and maximum damage from falling is 40d6. Any creature on the ground in the area when the spell is cast must make a successful Strength saving throw or be knocked prone; the same applies to a creature that enters the area or ends its turn in the area. A prone creature in the area must make a successful Strength saving throw to stand up. A creature on the ground in the area moves at half speed and has disadvantage on Dexterity checks and ranged attack rolls.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">7</set>
+			<set name="school">Transmutation</set>
+			<set name="time">1 action</set>
+			<set name="range">100 feet</set>
+			<set name="duration">Concetration, up to 1 minute</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a piece of lead</set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Ancestor's Strength" type="Spell" source="Deep Magic for 5th Edition" id="ID_KBP_DMF5E_SPELL_ANCESTORS_STRENGTH">
+		<supports>Cleric,Druid,Paladin</supports>
+		<description>
+			<html>&lt;p&gt;Choose a willing creature you can see and touch. Its muscles bulge and become invigorated. For the duration, the target is considered one size category larger for determining its carrying capacity, the maximum weight it can lift, push, or pull, and its ability to break objects. It also has advantage on Strength checks.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">1</set>
+			<set name="school">Transmutation</set>
+			<set name="time">1 action</set>
+			<set name="range">Touch</set>
+			<set name="duration">Concetration, up to 8 hours</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Anchoring Rope" type="Spell" source="Deep Magic for 5th Edition" id="ID_KBP_DMF5E_SPELL_ANCHORING_ROPE">
+		<supports>Bard,Druid,Ranger</supports>
+		<description>
+			<html>&lt;p&gt;You create a spectral lanyard. One end is tied around your waist, and the other end is magically anchored in the air at a point you select within range. You can choose to make the rope from 5 to 30 feet long, and it can support up to 800 pounds. The point where the end of the rope is anchored in midair can’t be moved after the spell is cast. If this spell is cast as a reaction while you are falling, you stop at a point of your choosing in midair and take no falling damage. You can dismiss the rope as a bonus action.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;At Higher Levels.&lt;/em&gt;&lt;/strong&gt; When you cast this spell using a spell slot of 3rd level or higher, you can create one additional rope for every two slot levels above 1st. Each rope must be attached to a different creature.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">1</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action, or 1 reaction that you take while falling</set>
+			<set name="range">30 feet</set>
+			<set name="duration">5 minutes</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Ancient Shade" type="Spell" source="Deep Magic for 5th Edition" id="ID_KBP_DMF5E_SPELL_ANCIENT_SHADE">
+		<supports>Cleric,Wizard</supports>
+		<description>
+			<html>&lt;p&gt;You grant the semblance of life and intelligence to a pile of bones (or even bone dust) of your choice within range, allowing the ancient spirit to answer the questions you pose. These remains can be the remnants of undead, including animated but unintelligent undead, such as skeletons and zombies. (Intelligent undead are not affected.) Though it can have died centuries ago, the older the spirit called, the less it remembers of its mortal life.&lt;/p&gt;
+&lt;p&gt;Until the spell ends, you can ask the ancient spirit up to five questions if it died within the past year, four questions if it died within ten years, three within one hundred years, two within one thousand years, and but a single question for spirits more than one thousand years dead. The ancient shade knows only what it knew in life, including languages. Answers are usually brief, cryptic, or repetitive, and the corpse is under no compulsion to offer a truthful answer if you are hostile to it or it recognizes you as an enemy. This spell doesn’t return the creature’s soul to its body, only its animating spirit. Thus, the corpse can’t learn new information, doesn’t comprehend anything that has happened since it died, and can’t speculate about future events.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">5</set>
+			<set name="school">Necromancy</set>
+			<set name="time">1 action</set>
+			<set name="range">10 feet</set>
+			<set name="duration">10 minutes</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">burning candles of planar origin worth 500 gp</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Animate Greater Undead" type="Spell" source="Deep Magic for 5th Edition" id="ID_KBP_DMF5E_SPELL_ANIMATE_GREATER_UNDEAD">
+		<supports>Cleric,Wizard</supports>
+		<description>
+			<html>&lt;p&gt;You create an undead servant from a pile of bones or from the corpse of a Large or Huge humanoid within range. The spell imbues the target with a foul mimicry of life, raising it as an undead skeleton or zombie. A skeleton uses the stat block of a minotaur skeleton, or a zombie uses the stat block of an ogre zombie, unless a more appropriate stat block is available.&lt;/p&gt;
+&lt;p&gt;The creature is under your control for 24 hours, after which it stops obeying your commands. To maintain control of the creature for another 24 hours, you must cast this spell on it again while you have it controlled. Casting the spell for this purpose reasserts your control over up to four creatures you have previously animated rather than animating a new one.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;At Higher Levels.&lt;/em&gt;&lt;/strong&gt; When you cast this spell using a spell slot of 7th level or higher, you can reanimate one additional creature for each slot level above 6th.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">6</set>
+			<set name="school">Necromancy</set>
+			<set name="time">1 hour</set>
+			<set name="range">15 feet</set>
+			<set name="duration">Instantaneous</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a pint of blood, a pound of flesh, and an ounce of bone dust, all of which the spell consumes</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Ashen Memories" type="Spell" source="Deep Magic for 5th Edition" id="ID_KBP_DMF5E_SPELL_ASHEN_MEMORIES">
+		<supports>Bard,Cleric,Wizard</supports>
+		<description>
+			<html>&lt;p&gt;You touch the ashes, embers, or soot left behind by a fire and receive a vision of one significant event that occurred in the area while the fire was burning. For example, if you were to touch the cold embers of a campfire, you might witness a snippet of a conversation that occurred around the fire. Similarly, touching the ashes of a burned letter might grant you a vision of the person who destroyed the letter or the contents of the letter. You have no control over what information the spell reveals, but your vision usually is tied to the most meaningful event related to the fire. The GM determines the details of what is revealed.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">2</set>
+			<set name="school">Divination</set>
+			<set name="time">1 minute</set>
+			<set name="range">Touch</set>
+			<set name="duration">Instantaneous</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">true</set>
+		</setters>
+	</element>
+	<element name="Aspect of the Serpent" type="Spell" source="Deep Magic for 5th Edition" id="ID_KBP_DMF5E_SPELL_ASPECT_OF_THE_SERPENT">
+		<supports>Druid,Sorcerer,Wizard</supports>
+		<description>
+			<html>&lt;p&gt;A creature you touch takes on snakelike aspects for the duration of the spell. Its tongue becomes long and forked, its canine teeth become fangs with venom sacs, and its pupils become sharply vertical. The target gains darkvision with a range of 60 feet and blindsight with a range of 30 feet. As a bonus action when you cast the spell, the target can make a ranged weapon attack with a normal range of 60 feet that deals 2d6 poison damage on a hit.&lt;/p&gt;
+&lt;p&gt;As an action, the target can make a bite attack using either Strength or Dexterity (Melee Weapon Attack: range 5 ft., one creature; Hit: 2d6 piercing damage), and the creature must make a successful DC 14 Constitution saving throw or be paralyzed for 1 minute. A creature paralyzed in this way repeats the saving throw at the end of each of its turns, ending the effect on itself on a success).&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;At Higher Levels.&lt;/em&gt;&lt;/strong&gt; When you cast this spell using a spell slot of 4th level or higher, both the ranged attack and bite attack damage increase by 1d6 for each slot level above 3rd.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">3</set>
+			<set name="school">Transmutation</set>
+			<set name="time">1 action</set>
+			<set name="range">Touch</set>
+			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a dried snakeskin</set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Weiler's Ward" type="Spell" source="Deep Magic for 5th Edition" id="ID_KBP_DMF5E_SPELL_WEILERS_WARD">
+		<supports>Druid,Sorcerer,Wizard</supports>
+		<description>
+			<html>&lt;p&gt;You create four small orbs of faerie magic that float around your head and give off dim light out to a radius of 15 feet. Whenever a Large or smaller enemy enters that area of dim light, or starts its turn in the area, you can use your reaction to attack it with one or more of the orbs. The enemy creature makes a Charisma saving throw. On a failed save, the creature is pushed 20 feet directly away from you, and each orb you used in the attack explodes violently, dealing 1d6 force damage to the creature.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;At Higher Levels.&lt;/em&gt;&lt;/strong&gt; When you cast this spell using a spell slot of 3rd level or higher, the number of orbs increases by one for each slot level above 2nd.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">2</set>
+			<set name="school">Conjuration</set>
+			<set name="time">1 bonus action</set>
+			<set name="range">Self</set>
+			<set name="duration">Concentration, up to 1 hour</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="isConcentration">true</set>
+			<set name="materialComponent">a lock of hair from a fey creature</set>
+		</setters>
+	</element>
+	<element name="Writhing Arms" type="Spell" source="Deep Magic for 5th Edition" id="ID_KBP_DMF5E_SPELL_WRITHING_ARMS">
+		<supports>Sorcerer,Warlock,Wizard</supports>
+		<description>
+			<html>&lt;p&gt;Your arms become constantly writhing tentacles. You can use your action to make a melee spell attack against any target within range. The target takes 1d10 necrotic damage and is grappled (escape DC is your spell save DC).&lt;/p&gt;
+&lt;p&gt;If the target does not escape your grapple, you can use your action on each subsequent turn to deal 1d10 necrotic damage to the target automatically.&lt;/p&gt;
+&lt;p&gt;Although you control the tentacles, they make it difficult to manipulate items. You cannot wield weapons or hold objects, including material components, while under the effects of this spell.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;At Higher Levels.&lt;/em&gt;&lt;/strong&gt; When you cast this spell using a spell slot of 2nd level or higher, the damage you deal with your tentacle attack increases by 1d10 for each slot level above 1st.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">1</set>
+			<set name="school">Transmutation</set>
+			<set name="time">1 action</set>
+			<set name="range">10 feet</set>
+			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="isConcentration">true</set>
+		</setters>
+	</element>
+	<element name="Aura of Protection or Destruction" type="Spell" source="Deep Magic for 5th Edition" id="ID_KBP_DMF5E_SPELL_AURA_OF_PROJECTION_OR_DESTRUCTION">
+		<supports>Cleric,Paladin</supports>
+		<description>
+			<html>&lt;p&gt;When you cast this spell, you radiate an otherworldly energy that warps the fate of all creatures within 30 feet of you. Decide whether to call upon either a celestial or a fiend for aid. Choosing a celestial charges a 30-foot-radius around you with an aura of nonviolence; until the start of your next turn, every attack roll made by or against a creature inside the aura is treated as a natural 1. Choosing a fiend charges the area with an aura of violence; until the start of your next turn, every attack roll made by or against a creature inside the aura, including you, is treated as a natural 20.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;At Higher Levels.&lt;/em&gt;&lt;/strong&gt; When you cast this spell using a spell slot of 4th level or higher, you can extend the duration by 1 round for each slot level above 3rd.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">3</set>
+			<set name="school">Abjuration</set>
+			<set name="time">1 action</set>
+			<set name="range">Self (30-foot radius)</set>
+			<set name="duration">Instantaneous</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Awaken Object" type="Spell" source="Deep Magic for 5th Edition" id="ID_KBP_DMF5E_SPELL_AWAKEN_OBJECT">
+		<supports>Druid</supports>
+		<description>
+			<html>&lt;p&gt;After spending the casting time enchanting a ruby along with a Large or smaller nonmagical object in humanoid form, you touch the ruby to the object. The ruby dissolves into the object, which becomes a living construct imbued with sentience. If the object has no face, a humanoid face appears on it in an appropriate location. The awakened object's statistics are determined by its size, as shown on the table below. An awakened object can use an action to make a melee weapon attack against a target within 5 feet of it. It has free will, acts independently, and speaks one language you know. It is initially friendly to anyone who assisted in its creation.&lt;/p&gt;
+&lt;p&gt;An awakened object's speed is 30 feet. If it has no apparent legs or other means of moving, it gains a flying speed of 30 feet and it can hover. Its sight and hearing are equivalent to a typical human's senses. Intelligence, Wisdom, and Charisma can be adjusted up or down by the GM to fit unusual circumstances. A beautiful statue might awaken with increased Charisma, for example, or the bust of a great philosopher could have surprisingly high Wisdom.&lt;/p&gt;
+&lt;p&gt;An awakened object needs no air, food, water, or sleep. Damage to an awakened object can be healed or mechanically repaired.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;&lt;td&gt;Size&lt;/td&gt;&lt;td&gt;HP&lt;/td&gt;&lt;td&gt;AC&lt;/td&gt;&lt;td class="left"&gt;Attack&lt;/td&gt;&lt;td&gt;Str&lt;/td&gt;&lt;td&gt;Dex&lt;/td&gt;&lt;td&gt;Con&lt;/td&gt;&lt;td&gt;Int&lt;/td&gt;&lt;td&gt;Wis&lt;/td&gt;&lt;td&gt;Cha&lt;/td&gt;&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tr&gt;&lt;td&gt;Tiny&lt;/td&gt;&lt;td&gt;20&lt;/td&gt;&lt;td&gt;18&lt;/td&gt;&lt;td class="left"&gt;+8 to hit, 1d4 + 4 dmg&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;18&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;td&gt;2d6&lt;/td&gt;&lt;td&gt;2d6&lt;/td&gt;&lt;td&gt;2d6&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Sm&lt;/td&gt;&lt;td&gt;25&lt;/td&gt;&lt;td&gt;16&lt;/td&gt;&lt;td class="left"&gt;+6 to hit, 1d8 + 2 dmg&lt;/td&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;14&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;td&gt;3d6&lt;/td&gt;&lt;td&gt;2d6&lt;/td&gt;&lt;td&gt;2d6&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Med&lt;/td&gt;&lt;td&gt;40&lt;/td&gt;&lt;td&gt;13&lt;/td&gt;&lt;td class="left"&gt;+5 to hit, 2d6 + 1 dmg&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;td&gt;12&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;td&gt;3d6&lt;/td&gt;&lt;td&gt;3d6&lt;/td&gt;&lt;td&gt;2d6&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Lrg&lt;/td&gt;&lt;td&gt;50&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;td class="left"&gt;+6 to hit, 2d10 + 2 dmg&lt;/td&gt;&lt;td&gt;14&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;td&gt;3d6&lt;/td&gt;&lt;td&gt;3d6&lt;/td&gt;&lt;td&gt;2d6 + 2&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">8</set>
+			<set name="school">Transmutation</set>
+			<set name="time">8 hours</set>
+			<set name="range">Touch</set>
+			<set name="duration">Permanent</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a ruby worth at least 1,000 gp, which the spell consumes</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Batsense" type="Spell" source="Deep Magic for 5th Edition" id="ID_KBP_DMF5E_SPELL_BATSENSE">
+		<supports>Bard,Druid,Ranger,Sorcerer</supports>
+		<description>
+			<html>&lt;p&gt;For the duration of the spell, a creature you touch can produce and interpret squeaking sounds used for echolocation, giving it blindsight out to a range of 60 feet. The target cannot use its blindsight while deafened, and its blindsight doesn't penetrate areas of magical silence. While using blindsight, the target has disadvantage on Dexterity (Stealth) checks that rely on being silent. Additionally, the target has advantage on Wisdom (Perception) checks that rely on hearing.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">2</set>
+			<set name="school">Transmutation</set>
+			<set name="time">1 action</set>
+			<set name="range">Touch</set>
+			<set name="duration">1 hour</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a bit of fur from a bat's ear</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Beguiling Bet" type="Spell" source="Deep Magic for 5th Edition" id="ID_KBP_DMF5E_SPELL_BEGUILING_BET">
+		<supports>Bard</supports>
+		<description>
+			<html>&lt;p&gt;You issue a challenge against one creature you can see within range, which must make a successful Wisdom saving throw or become charmed. On a failed save, you can make an ability check as a bonus action. For example, you could make a Strength (Athletics) check to climb a difficult surface or to jump as high as possible; you could make a Dexterity (Acrobatics) check to perform a backflip; or you could make a Charisma (Performance) check to sing a high note or to extemporize a clever rhyme. You can choose to use your spellcasting ability modifier in place of the usual ability modifier for this check, and you add your proficiency bonus if you're proficient in the skill being used.&lt;/p&gt;
+&lt;p&gt;The charmed creature must use its next action (which can be a legendary action) to make the same ability check in a contest against your check. Even if the creature can't perform the action—it may not be close enough to a wall to climb it, or it might not have appendages suitable for strumming a lute—it must still attempt the action to the best of its capability. If you win the contest, the spell (and the contest) continues, with you making a new ability check as a bonus action on your turn. The spell ends when it expires or when the creature wins the contest.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;At Higher Levels.&lt;/em&gt;&lt;/strong&gt; When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for every two slot levels above 2nd. Each creature must be within 30 feet of another creature when you cast the spell.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">2</set>
+			<set name="school">Enchantment</set>
+			<set name="time">1 action</set>
+			<set name="range">30 feet</set>
+			<set name="duration">1 minute</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Bestial Fury" type="Spell" source="Deep Magic for 5th Edition" id="ID_KBP_DMF5E_SPELL_BESTIAL_FURY">
+		<supports>Ranger</supports>
+		<description>
+			<html>&lt;p&gt;You instill primal fury into a creature you can see within range. The target must make a Charisma saving throw; a creature can choose to fail this saving throw. On a failure, the target must use its action to attack its nearest enemy it can see with unarmed strikes or natural weapons. For the duration, the target’s attacks deal an extra 1d6 damage of the same type dealt by its weapon, and the target can’t be charmed or frightened. If there are no enemies within reach, the target can use its action to repeat the saving throw, ending the effect on a success.&lt;/p&gt;
+&lt;p&gt;This spell has no effect on undead or constructs.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;At Higher Levels.&lt;/em&gt;&lt;/strong&gt; When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">2</set>
+			<set name="school">Enchantment</set>
+			<set name="time">1 action</set>
+			<set name="range">30 feet</set>
+			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Black Sunshine" type="Spell" source="Deep Magic for 5th Edition" id="ID_KBP_DMF5E_SPELL_BLACK_SUNSHINE">
+		<supports>Sorcerer,Wizard</supports>
+		<description>
+			<html>&lt;p&gt;You hold up a flawed pearl and it disappears, leaving behind a magic orb in your hand that pulses with dim purple light. Allies that you designate become invisible if they're within 60 feet of you and if light from the orb can reach the space they occupy. An invisible creature still casts a faint, purple shadow.&lt;/p&gt;
+&lt;p&gt;The orb can be used as a thrown weapon to attack an enemy. On a hit, the orb explodes in a flash of light and the spell ends. The targeted enemy and each creature within 10 feet of it must make a successful Dexterity saving throw or be blinded for 1 minute. A creature blinded in this way repeats the saving throw at the end of each of its turns, ending the effect on itself on a success.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">8</set>
+			<set name="school">Illusion</set>
+			<set name="time">1 action</set>
+			<set name="range">Self (60-foot radius)</set>
+			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a discolored pearl, which the spell consumes</set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Bleating Call" type="Spell" source="Deep Magic for 5th Edition" id="ID_KBP_DMF5E_SPELL_BLEATING_CALL">
+		<supports>Bard,Ranger,Sorcerer,Wizard</supports>
+		<description>
+			<html>&lt;p&gt;You create a sound on a point within range. The sound’s volume can range from a whisper to a scream, and it can be any sound you choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different times before the spell ends.&lt;/p&gt;
+&lt;p&gt;Each creature that starts its turn within 30 feet of the sound and can hear it must make a Wisdom saving throw. On a failed save, the target must take the Dash or Disengage action and move toward the sound by the safest available route on each of its turns. When it arrives to the source of the sound, the target must use its action to examine the sound. Once it has examined the sound, the target determines the sound is illusory and can no longer hear it, ending the spell’s effects on that target and preventing the target from being affected by the sound again for the duration of the spell. If a target takes damage from you or a creature friendly to you, it is no longer under the effects of this spell.&lt;/p&gt;
+&lt;p&gt;Creatures that can’t be charmed are immune to this spell.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">2</set>
+			<set name="school">Enchantment</set>
+			<set name="time">1 action</set>
+			<set name="range">90 feet</set>
+			<set name="duration">1 minute</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a bit of fur or hair from a young beast or humanoid</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Bleed" type="Spell" source="Deep Magic for 5th Edition" id="ID_KBP_DMF5E_SPELL_BLEED">
+		<supports>Ranger,Warlock</supports>
+		<description>
+			<html>&lt;p&gt;Crackling energy coats the blade of one weapon you are carrying that deals slashing damage. Until the spell ends, when you hit a creature with the weapon, the weapon deals an extra 1d4 necrotic damage and the creature must make a Constitution saving throw. On a failed save, the creature suffers a bleeding wound. Each time you hit a creature with this weapon while it suffers from a bleeding wound, your weapon deals an extra 1 necrotic damage for each time you have previously hit the creature with this weapon (to a maximum of 10 necrotic damage).&lt;/p&gt;
+&lt;p&gt;Any creature can take an action to stanch the bleeding wound by succeeding on a Wisdom (Medicine) check against your spell save DC. The wound also closes if the target receives magical healing. This spell has no effect on undead or constructs.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">1</set>
+			<set name="school">Necromancy</set>
+			<set name="time">1 bonus action</set>
+			<set name="range">Self</set>
+			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a drop of blood</set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Blood Offering" type="Spell" source="Deep Magic for 5th Edition" id="ID_KBP_DMF5E_SPELL_BLOOD_OFFERING">
+		<supports>Druid,Ranger,Sorcerer,Warlock,Wizard</supports>
+		<description>
+			<html>&lt;p&gt;You touch the corpse of a creature that isn’t undead or a construct and consume its life force. You must have dealt damage to the creature before it died, and it must have been dead for no more than 1 hour. You regain a number of hit points equal to 1d4 × the creature's challenge rating (minimum of 1d4). The creature can be restored to life only by means of a &lt;i&gt;true resurrection&lt;/i&gt; or a &lt;i&gt;wish&lt;/i&gt; spell.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">3</set>
+			<set name="school">Necromancy</set>
+			<set name="time">1 minute</set>
+			<set name="range">Touch</set>
+			<set name="duration">Instantaneous</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Bloodhound" type="Spell" source="Deep Magic for 5th Edition" id="ID_KBP_DMF5E_SPELL_BLOODHOUND">
+		<supports>Druid,Ranger,Sorcerer,Wizard</supports>
+		<description>
+			<html>&lt;p&gt;You touch a willing creature to grant it an enhanced sense of smell. For the duration, that creature has advantage on Wisdom (Perception) checks that rely on smell and on Wisdom (Survival) checks to follow tracks.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;At Higher Levels.&lt;/em&gt;&lt;/strong&gt; When you cast this spell using a spell slot of 3rd level or higher, you also grant the target blindsight out to a range of 30 feet for the duration.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">1</set>
+			<set name="school">Transmutation</set>
+			<set name="time">1 action</set>
+			<set name="range">Touch</set>
+			<set name="duration">8 hours</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a drop of ammonia</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Bolster Undead" type="Spell" source="Deep Magic for 5th Edition" id="ID_KBP_DMF5E_SPELL_BOLSTER_UNDEAD">
+		<supports>Cleric,Sorcerer,Warlock,Wizard</supports>
+		<description>
+			<html>&lt;p&gt;You suffuse an area with negative energy to increase the difficulty of harming or affecting undead creatures.&lt;/p&gt;
+&lt;p&gt;Choose up to three undead creatures within range. When a targeted creature makes a saving throw against being turned or against spells or effects that deal radiant damage, the target has advantage on the saving throw.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;At Higher Levels.&lt;/em&gt;&lt;/strong&gt; When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional undead creature for each slot level above 1st.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">1</set>
+			<set name="school">Necromancy</set>
+			<set name="time">1 action</set>
+			<set name="range">60 feet</set>
+			<set name="duration">1 hour</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a sprinkle of unholy water</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Booster Shot" type="Spell" source="Deep Magic for 5th Edition" id="ID_KBP_DMF5E_SPELL_BOOSTER_SHOT">
+		<supports>Ranger,Sorcerer,Warlock</supports>
+		<description>
+			<html>&lt;p&gt;You imbue a two-handed ranged weapon (typically a shortbow, longbow, light crossbow, or heavy crossbow) that you touch with a random magical benefit. While the spell lasts, a projectile fired from the weapon has an effect that occurs on a hit in addition to its normal damage. Roll a d6 to determine the additional effect for each casting of this spell.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;&lt;td&gt;D6&lt;/td&gt;&lt;td class="left"&gt;Effect&lt;/td&gt;&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td class="left"&gt;2d10 acid damage to all creatures within 10 feet of the target&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td class="left"&gt;2d10 lightning damage to the target and 1d10 lightning damage to all creatures in a 5-foot-wide line between the weapon and the target&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td class="left"&gt;2d10 necrotic damage to the target, and the target has disadvantage on its first attack roll before the start of the weapon user’s next turn&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td class="left"&gt;2d10 cold damage to the target and 1d10 cold damage to all other creatures in a 60-foot cone in front of the weapon&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td class="left"&gt;2d10 force damage to the target, and the target is pushed 20 feet&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;6&lt;/td&gt;&lt;td class="left"&gt;2d10 psychic damage to the target, and the target is stunned until the start of the weapon user’s next turn&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;At Higher Levels.&lt;/em&gt;&lt;/strong&gt; When you cast this spell using a spell slot of 4th level or higher, all damage increases by 1d10 for each slot level above 3rd.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">3</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="range">Touch</set>
+			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Breeze Compass" type="Spell" source="Deep Magic for 5th Edition" id="ID_KBP_DMF5E_SPELL_BREEZE_COMPASS">
+		<supports>Druid,Wizard</supports>
+		<description>
+			<html>&lt;p&gt;When you cast breeze compass, you must clearly imagine or mentally describe a location. It doesn’t need to be a location you’ve been to as long as you know it exists on the Material Plane. Within moments, a gentle breeze arises and blows along the most efficient path toward that destination. Only you can sense this breeze, and whenever it brings you to a decision point (a fork in a passageway, for example), you must make a successful DC 8 Intelligence (Arcana) check to deduce which way the breeze indicates you should go. On a failed check, the spell ends. The breeze guides you around cliffs, lava pools, and other natural obstacles, but it doesn’t avoid enemies or hostile creatures.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">3</set>
+			<set name="school">Divination</set>
+			<set name="time">1 action</set>
+			<set name="range">Self</set>
+			<set name="duration">Concentration, up to 1 hour</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a magnetized needle</set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Broken Charge" type="Spell" source="Deep Magic for 5th Edition" id="ID_KBP_DMF5E_SPELL_BROKEN_CHARGE">
+		<supports>Bard,Warlock,Wizard</supports>
+		<description>
+			<html>&lt;p&gt;When an enemy that you can see moves to within 5 feet of you, you utter a perplexing word that alters the foe’s course. The enemy must make a successful Wisdom saving throw or take 2d4 psychic damage and use the remainder of its speed to move in a direction of your choosing.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;At Higher Levels.&lt;/em&gt;&lt;/strong&gt; When you cast this spell using a spell slot of 2nd level or higher, the target takes an additional 2d4 psychic damage for each slot level above 1st.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">1</set>
+			<set name="school">Enchantment</set>
+			<set name="time">1 reaction, which you take when an enemy approaches to within 5 feet of you</set>
+			<set name="range">10 feet</set>
+			<set name="duration">Instantaneous</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent">false</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="By the Light of the Moon" type="Spell" source="Deep Magic for 5th Edition" id="ID_KBP_DMF5E_SPELL_BY_THE_LIGHT_OF_THE_MOON">
+		<supports>Cleric,Druid,Ranger,Wizard</supports>
+		<description>
+			<html>&lt;p&gt;The area within 30 feet of you becomes bathed in magical moonlight. In addition to providing dim light, it highlights objects and locations that are hidden or that hold a useful clue. Until the spell ends, all Wisdom (Perception) and Intelligence (Investigation) checks made in the area are made with advantage.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">2</set>
+			<set name="school">Divination</set>
+			<set name="time">1 action</set>
+			<set name="range">Self (30-foot radius)</set>
+			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent">false</set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Candle's Insight" type="Spell" source="Deep Magic for 5th Edition" id="ID_KBP_DMF5E_SPELL_CANDLES_INSIGHT">
+		<supports>Bard,Warlock,Wizard</supports>
+		<description>
+			<html>&lt;p&gt;&lt;i&gt;Candle's Insight&lt;/i&gt; is cast on its target as the component candle is lit. The candle burns for up to 10 minutes unless it’s extinguished normally or by the spell’s effect. While the candle burns, the caster can question the spell’s target, and the candle reveals whether the target speaks truthfully. An intentionally misleading or partial answer causes the flame to flicker and dim. An outright lie causes the flame to flare and then go out, ending the spell. The candle judges honesty, not absolute truth; the flame burns steadily through even an outrageously false statement, as long as the target believes it’s true.&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;Candle's Insight&lt;/i&gt; is used across society: by merchants while negotiating deals, by inquisitors investigating heresy, and by monarchs as they interview foreign diplomats. In some societies, casting candle’s insight without the consent of the spell’s target is considered a serious breach of hospitality.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">1</set>
+			<set name="school">Divination</set>
+			<set name="time">1 action</set>
+			<set name="range">10 feet</set>
+			<set name="duration">10 minutes</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a blessed candle</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Carmello-Volta’s Irksome Preserves" type="Spell" source="Deep Magic for 5th Edition" id="ID_KBP_DMF5E_SPELL_CARMELLO_VOLTAS_IRKSOME_PRESERVES">
+		<supports>Druid</supports>
+		<description>
+			<html>&lt;p&gt;At your command, delicious fruit jam oozes from a small mechanical device (such as a crossbow trigger, a lock, or a clockwork toy), rendering the device inoperable until the spell ends and the device is cleaned with a damp cloth. Cleaning away the jam takes an action, but doing so has no effect until the spell ends. One serving of the jam can be collected in a suitable container. If it's eaten (as a bonus action) within 24 hours, the jam restores 1d4 hit points. The jam's flavor is determined by the material component.&lt;/p&gt;
+&lt;p&gt;The spell can affect constructs, with two limitations. First, the target creature negates the effect with a successful Dexterity saving throw. Second, unless the construct is Tiny, only one component (an eye, a knee, an elbow, and so forth) can be disabled. The affected construct has disadvantage on attack rolls and ability checks that depend on the disabled component until the spell ends and the jam is removed.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">2</set>
+			<set name="school">Conjuration</set>
+			<set name="time">1 action</set>
+			<set name="range">30 feet</set>
+			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a small berry or a piece of fruit</set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Caustic Touch" type="Spell" source="Deep Magic for 5th Edition" id="ID_KBP_DMF5E_SPELL_CAUSTIC_TOUCH">
+		<supports>Cleric,Druid,Sorcerer,Wizard</supports>
+		<description>
+			<html>&lt;p&gt;Your hand sweats profusely and becomes coated in a film of caustic slime. Make a melee spell attack against a creature you touch. On a hit, the target takes 1d8 acid damage. If the target was concentrating on a spell, it has disadvantage on its Constitution saving throw to maintain concentration.&lt;/p&gt;
+&lt;p&gt;This spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="range">Touch</set>
+			<set name="duration">Instantaneous</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent"></set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Chains of Torment" type="Spell" source="Deep Magic for 5th Edition" id="ID_KBP_DMF5E_SPELL_CHAINS_OF_TORMENT">
+		<supports>Warlock,Wizard</supports>
+		<description>
+			<html>&lt;p&gt;You are surrounded by an aura of dim light in a 10-foot radius as you conjure an iron chain that extends out to a creature you can see within 30 feet. The creature must make a successful Dexterity saving throw or be grappled (escape DC equal to your spell save DC). While grappled in this way, the creature is also restrained. A creature that’s restrained at the start of its turn takes 4d6 psychic damage. You can have only one creature restrained in this way at a time.&lt;/p&gt;
+&lt;p&gt;As an action, you can scan the mind of the creature that’s restrained by your chain. If the creature gets a failure on a Wisdom saving throw, you learn one discrete piece of information of your choosing known by the creature (such as a name, a password, or an important number). The effect is otherwise harmless.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;At Higher Levels.&lt;/em&gt;&lt;/strong&gt; When you cast this spell using a spell slot of 5th level or higher, the psychic damage increases by 1d6 for each slot level above 4th.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">4</set>
+			<set name="school">Conjuration</set>
+			<set name="time">1 action</set>
+			<set name="range">Self</set>
+			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">an iron chain link dipped in blood</set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Champion's Weapon" type="Spell" source="Deep Magic for 5th Edition" id="ID_KBP_DMF5E_SPELL_CHAMPIONS_WEAPON">
+		<supports>Paladin</supports>
+		<description>
+			<html>&lt;p&gt;A spectral version of a melee weapon of your choice materializes in your hand. It has standard statistics for a weapon of its kind, but it deals force damage instead of its normal damage type and it sheds dim light in a 10-foot radius. You have proficiency with this weapon for the spell’s duration. The weapon can be wielded only by the caster; the spell ends if the weapon is held by a creature other than you or if you start your turn more than 10 feet from the weapon.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;At Higher Levels.&lt;/em&gt;&lt;/strong&gt; When you cast this spell using a spell slot of 3rd level or higher, the weapon deals an extra 1d8 force damage for each slot level above 2nd.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">2</set>
+			<set name="school">Conjuration</set>
+			<set name="time">1 bonus action</set>
+			<set name="range">Self</set>
+			<set name="duration">Concentration, up to 10 minutes</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent">false</set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Clockwork Bolt" type="Spell" source="Deep Magic for 5th Edition" id="ID_KBP_DMF5E_SPELL_CLOCKWORK_BOLT">
+		<supports>Bard,Cleric,Wizard</supports>
+		<description>
+			<html>&lt;p&gt;You imbue an arrow or crossbow bolt with clockwork magic just as you fire it at your target; spinning blades materialize on the missile after it strikes to further mutilate your enemy.&lt;/p&gt;
+&lt;p&gt;As part of the action used to cast this spell, you make a ranged weapon attack with a bow or a crossbow against one creature within range. If the attack hits, the missile embeds in the target. Unless the target (or an ally of it within 5 feet) uses an action to remove the projectile (which deals no additional damage), the target takes an additional 1d8 slashing damage at the end of its next turn from spinning blades that briefly sprout from the missile’s shaft. Afterward, the projectile reverts to normal.&lt;/p&gt;
+&lt;p&gt;This spell deals more damage when you reach higher levels. At 5th level, the ranged attack deals an extra 1d8 slashing damage to the target, and the target takes an additional 1d8 slashing damage (2d8 total) if the embedded ammunition isn’t removed. Both damage amounts increase by 1d8 again at 11th level and at 17th level.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">0</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="range">60 feet</set>
+			<set name="duration">1 round</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">an arrow or crossbow bolt</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Closing In" type="Spell" source="Deep Magic for 5th Edition" id="ID_KBP_DMF5E_SPELL_CLOSING_IN">
+		<supports>Bard,Warlock,Wizard</supports>
+		<description>
+			<html>&lt;p&gt;Choose a creature you can see within range. The target must succeed on a Wisdom saving throw, which it makes with disadvantage if it’s in an enclosed space. On a failed save, the creature believes the world around it is closing in and threatening to crush it. Even in open or clear terrain, the creature feels as though it is sinking into a pit, or that the land is rising around it. The creature has disadvantage on ability checks and attack rolls for the duration, and it takes 2d6 psychic damage at the end of each of its turns. An affected creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;At Higher Levels.&lt;/em&gt;&lt;/strong&gt; When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">3</set>
+			<set name="school">Illusion</set>
+			<set name="time">1 action</set>
+			<set name="range">30 feet</set>
+			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent">false</set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Closing In" type="Spell" source="Deep Magic for 5th Edition" id="ID_KBP_DMF5E_SPELL_CLOSING_IN_2">
+		<supports>Bard,Warlock,Wizard</supports>
+		<description>
+			<html>&lt;p&gt;Choose a creature you can see within range. The target must succeed on a Wisdom saving throw, which it makes with disadvantage if it’s in an enclosed space. On a failed save, the creature believes the world around it is closing in and threatening to crush it. Even in open or clear terrain, the creature feels as though it is sinking into a pit, or that the land is rising around it. The creature has disadvantage on ability checks and attack rolls for the duration, and it takes 2d6 psychic damage at the end of each of its turns. An affected creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;At Higher Levels.&lt;/em&gt;&lt;/strong&gt; When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="keywords" />
+			<set name="level">3</set>
+			<set name="school">Illusion</set>
+			<set name="time">1 action</set>
+			<set name="range">30 feet</set>
+			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent">false</set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+</elements>
